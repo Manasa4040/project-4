@@ -155,23 +155,34 @@ function drawGaugeChart(percentage) {
     const centerX = canvas.width / 2;
     const centerY = canvas.height / 2;
     const radius = 80;
-    const startAngle = 0.75 * Math.PI;
-    const endAngle = startAngle + (percentage / 100) * 1.5 * Math.PI;
-    const counterClockwise = true;
+    const startAngle = 0; // Start at 0 degrees
+    const endAngle = 2 * Math.PI; // End angle is 360 degrees (full circle)
+    const counterClockwise = false; // Draw clockwise for a full circle
 
-    // Draw the background circle
+    // Draw the background circle in gray
     context.beginPath();
     context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
     context.lineWidth = 10;
-    context.strokeStyle = '#ccc';
+    context.strokeStyle = '#ccc'; // Grey color for the background circle
     context.stroke();
 
-    // Draw the filled arc
+    // Calculate the angle for the percentage
+    const angle = (percentage / 100) * (2 * Math.PI);
+
+    // Draw the filled arc with orange for 100%, or green for other percentages
     context.beginPath();
-    context.arc(centerX, centerY, radius, startAngle, endAngle, counterClockwise);
+    context.arc(centerX, centerY, radius, startAngle, angle, counterClockwise);
     context.lineWidth = 10;
-    context.strokeStyle = '#4CAF50'; // Green color for high risk
+
+    // Choose the color based on the percentage
+    if (percentage < 50) {
+        context.strokeStyle = '#4CAF50'; // Green color for percentages less than 100%
+    } else {
+        context.strokeStyle = '#FFA500'; // Orange color for 100%
+    }
+
     context.stroke();
+
     // Add the percentage text in the center
     context.fillStyle = '#000';
     context.font = '20px Arial';
@@ -179,6 +190,9 @@ function drawGaugeChart(percentage) {
     context.textBaseline = 'middle';
     context.fillText(percentage + '%', centerX, centerY);
 }
+
+
+
 
 // Function to display the disease prediction result
 function displayDiseasePrediction(data, disease) {
