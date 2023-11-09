@@ -5,7 +5,7 @@ Welcome to our innovative health prediction project, ["MediSmart Futures: Sharp 
 Our goal is to develop and implement predictive models that enable early detection and proactive management of heart, liver, and diabetes conditions. We aim to provide individuals with accurate risk assessments, personalized health recommendations, and the knowledge they need to make informed decisions, ultimately improving their overall well-being and quality of life.
 
 
-![Alt text](Analytics-Medical-IoT-1600x900.jpeg)
+![Alt text](images/Analytics-Medical-IoT-1600x900.jpeg)
 
 # Dashboard
 Dashboard created using The visualisation is to include a Python Flask-powered API, HTML/CSS, Javascript and  database (SQL, MongoDB, SQLite)to configure some of the attributes of the application. From Application configuration objects store metadata for an application.
