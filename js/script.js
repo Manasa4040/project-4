@@ -178,7 +178,7 @@ function drawGaugeChart(percentage) {
     if (percentage < 50) {
         context.strokeStyle = '#4CAF50'; // Green color for percentages less than 100%
     } else {
-        context.strokeStyle = '#FFA500'; // Orange color for 100%
+        context.strokeStyle = '#ff5b55'; // Orange color for 100%
     }
 
     context.stroke();
