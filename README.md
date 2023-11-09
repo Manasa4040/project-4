@@ -10,7 +10,7 @@ Our goal is to develop and implement predictive models that enable early detecti
 # Dashboard
 Dashboard created using The visualisation is to include a Python Flask-powered API, HTML/CSS, Javascript and  database (SQL, MongoDB, SQLite)to configure some of the attributes of the application. From Application configuration objects store metadata for an application.
 
-![Alt text](<Screenshot 2023-11-08 154154.png>)
+![Alt text](images/<Screenshot 2023-11-08 154154.png>)
 
 ## Project Overview
 
@@ -74,12 +74,12 @@ The project's scope is to provide a valuable tool for General Practitioners (GPs
 
 # Html
 
-![Alt text](<Screenshot 2023-11-08 223314.png>)
+![Alt text](images/<Screenshot 2023-11-08 223314.png>)
 
 # Javascript
-![Alt text](<Screenshot 2023-11-08 195153.png>)
+![Alt text](images/<Screenshot 2023-11-08 195153.png>)
 
-![Alt text](<Screenshot 2023-11-08 195219.png>)
+![Alt text](images/<Screenshot 2023-11-08 195219.png>)
 
 •	We have done a full examination on a dataset related to diabetes, liver and heart
 •	We have described the features of the dataset. 
