@@ -74,12 +74,12 @@ The project's scope is to provide a valuable tool for General Practitioners (GPs
 
 # Html
 
-![Alt text](images/<Screenshot 2023-11-08 223314.png>)
+![Alt text](<images/Screenshot 2023-11-08 223314.png>)
 
 # Javascript
-![Alt text](images/<Screenshot 2023-11-08 195153.png>)
+![Alt text](<images/Screenshot 2023-11-08 195153.png>)
 
-![Alt text](images/<Screenshot 2023-11-08 195219.png>)
+![Alt text](<images/Screenshot 2023-11-08 195219.png>)
 
 •	We have done a full examination on a dataset related to diabetes, liver and heart
 •	We have described the features of the dataset. 
