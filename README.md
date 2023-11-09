@@ -10,7 +10,7 @@ Our goal is to develop and implement predictive models that enable early detecti
 # Dashboard
 Dashboard created using The visualisation is to include a Python Flask-powered API, HTML/CSS, Javascript and  database (SQL, MongoDB, SQLite)to configure some of the attributes of the application. From Application configuration objects store metadata for an application.
 
-![Alt text](images/<Screenshot 2023-11-08 154154.png>)
+![Alt text](<images/Screenshot 2023-11-08 154154.png>)
 
 ## Project Overview
 
